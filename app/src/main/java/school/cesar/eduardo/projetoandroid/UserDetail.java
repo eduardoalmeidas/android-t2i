@@ -72,7 +72,7 @@ public class UserDetail extends AppCompatActivity {
         FragmentManager manager = getFragmentManager();
         //Inicia uma transação para adicionar, remover ou alterar o fragment.
         FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.fragment_place, fragment);
+       // transaction.replace(R.id.fragment_place, fragment);
         //Realiza a alteração. Importante sem o commando abaixo o fragment não é atualizado.
         transaction.commit();
     }
